@@ -14,4 +14,6 @@
   - View the current inventory.
   - Search for items by name.
 
-
+## Version 1.2
+-2023-10-20
+-Added error message when user doesnt enter an integer for quantity.
