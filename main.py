@@ -25,8 +25,6 @@ try:
             # Check if there is enough of the item in the inventory to remove.
             if quantity <= inventory[name]:
                 inventory[name] -= quantity
-                if quantity == 0:
-                    inventory.remove(inventory[name])
             else:
                 print("Not enough of that item in the inventory.")
         else:
